@@ -1,0 +1,54 @@
+body {
+	background-image: url(img6.jpg);
+	background-size: cover;
+	font-family: sans-serif, 'helvetica Neue', 'open sans', 'Segoe UI';
+	font-weight: bold;
+	text-align: center;
+}
+
+#wrapper {
+        width: fit-content;
+        height: fit-content;
+        padding: 25px 20px;
+        background-image: url(img1.jpg);
+        border-radius: 10px;
+        border: 3px solid black;
+        margin: 100px auto;
+        max-width: 80%;
+}
+
+ h1 {
+ 	margin: 10px 0;
+    color: white;
+ }
+
+ h2 {
+ 	font-size: 50px;
+ 	margin-top: 0;
+ 	margin-bottom: 20px;
+    color: white;
+ }
+  button {
+  	border: none;
+  	padding: 10px 0;
+  	color: white;
+  	font-weight: bold;
+  	width: 300px;
+  	margin-bottom: 5px;
+  	border-radius: 20px;
+    border: 2px solid white;
+  }
+
+  #increment-btn {
+  	background: darkred;
+  }
+
+  #save-btn {
+  	background: darkgreen;
+  }
+
+  #save-el {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+  }
